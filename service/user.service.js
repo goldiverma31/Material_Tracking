@@ -242,7 +242,7 @@ exports.profile = async (req, next) => {
         } else {
             return next({
                 status: 404,
-                message: " Profile image is not able to uploaded",
+                message: " Profile image is not able to uploaded [please check]",
             });
         }
     } catch (err) {
