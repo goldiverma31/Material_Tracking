@@ -233,7 +233,7 @@ exports.profile = async (req, next) => {
         if (req.file) {
             return next(null, {
                 status: 200,
-                message: 'Update Profile',
+                message: 'Update Profile Image ',
                 data: {
                     filename,
                     destination: filename + '/' + destination
